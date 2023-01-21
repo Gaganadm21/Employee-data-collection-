@@ -1,0 +1,43 @@
+body{
+    background-color: #dadad5;
+    background-size: cover;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+div{
+   height: 380px;
+   width: 450px;
+   background-color: blanchedalmond;
+   border-radius: 5px;
+   padding: 15px 15px;
+   margin: 150px auto;
+
+}
+
+input[type="text"],
+select{
+    font-size: 18px;
+    height: 35px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    margin: 10px 0;
+}
+
+textarea{
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    width: 210px;
+    margin: 10px 0px;
+}
+input[type="text"]:focus,
+select:focus,
+textarea:focus{
+    background-color: aliceblue;
+    box-shadow: 0 0 10px darked; 
+}
+input[type="submit"],
+select{
+    margin: 20px 200px;
+}
